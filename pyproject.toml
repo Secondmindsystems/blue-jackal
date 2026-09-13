@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blue-jackal"
+version = "0.1.0"
+description = "Local deterministic contract challenges for observable coding-agent behavior"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "Second Mind Systems"}]
+dependencies = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Software Development :: Testing",
+]
+
+[project.scripts]
+blue-jackal = "blue_jackal.cli:main"
+
+[tool.setuptools]
+packages = ["blue_jackal"]
+include-package-data = false
