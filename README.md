@@ -1,6 +1,10 @@
 # Blue Jackal
 
-![Blue Jackal observes a coding agent under changing inputs, boundaries, and evidence](docs/assets/blue-jackal-xray-overview.png)
+<p align="center">
+  <a href="docs/assets/blue-jackal-xray-overview.png">
+    <img src="docs/assets/blue-jackal-xray-overview.png" width="520" alt="Blue Jackal observes a coding agent under changing inputs, boundaries, and evidence">
+  </a>
+</p>
 
 **Behavioral regression testing for coding agents.**
 
