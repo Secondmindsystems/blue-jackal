@@ -13,10 +13,6 @@ holds when inputs, evidence, or authority change.
 
 [See how Blue Jackal works](docs/HOW_BLUE_JACKAL_WORKS.md).
 
-[Second Mind Systems](https://github.com/Secondmindsystems/second-mind-systems) ·
-[Engineering portfolio](https://github.com/Secondmindsystems/governed-ai-systems-portfolio) ·
-[Latest release](https://github.com/Secondmindsystems/blue-jackal/releases/latest)
-
 ## Privacy and local use
 
 No product telemetry, analytics SDK or remote report collection is included.
