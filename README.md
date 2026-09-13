@@ -1,5 +1,7 @@
 # Blue Jackal
 
+![Blue Jackal observes a coding agent under changing inputs, boundaries, and evidence](docs/assets/blue-jackal-xray-overview.png)
+
 **Behavioral regression testing for coding agents.**
 
 **Your agent passed once. What happens when the conditions change?**
