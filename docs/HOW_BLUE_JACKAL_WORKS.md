@@ -4,9 +4,10 @@
 
 Your agent passed once. What happens when the conditions change?
 
-Blue Jackal is for teams turning coding agents from experiments into repeatable
-engineering workflows. It changes relevant operating conditions and checks whether
-the agent still satisfies its declared contract.
+When the situation changes, does your agent respond the way it should?
+
+Blue Jackal tests **selective adaptation**: whether the agent responds appropriately
+to what changed without losing the behavior that should still hold.
 
 ## Why Blue Jackal exists
 
@@ -21,8 +22,7 @@ time it encounters the same relevant starting state.
 Traditional software tests can tell you whether the resulting code works. Blue
 Jackal tests the agent workflow itself.
 
-> Unit tests check the code. Blue Jackal checks whether the agent's behavior still
-> holds when inputs, evidence, or authority change.
+> Unit tests check the code. Blue Jackal checks the agent.
 
 ## What Blue Jackal tests
 
@@ -199,4 +199,6 @@ Keep the regression fixture
 ```
 
 The workflow moves from "we tested the agent and it worked" to evidence that the
-agent continued to satisfy its contract after the operating conditions changed.
+agent responded appropriately after the conditions changed.
+
+> **Change where change is warranted. Preserve what should still hold.**

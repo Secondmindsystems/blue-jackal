@@ -2,16 +2,44 @@
 
 **Behavioral regression testing for coding agents.**
 
-Your agent passed once. What happens when the conditions change?
+**Your agent passed once. What happens when the conditions change?**
 
-Blue Jackal is for teams turning coding agents from experiments into repeatable
-engineering workflows. It changes relevant operating conditions and checks whether
-the agent still satisfies its declared contract.
+**When the situation changes, does your agent respond the way it should?**
 
-Unit tests check the code. Blue Jackal checks whether the agent's behavior still
-holds when inputs, evidence, or authority change.
+Blue Jackal tests **selective adaptation**: whether the agent responds appropriately
+to what changed without losing the behavior that should still hold.
+
+Change an input. Narrow its permissions. Introduce a false success signal. Blue
+Jackal records what the agent actually does and independently checks the result.
+
+**Unit tests check the code. Blue Jackal checks the agent.**
+
+It asks whether the agent uses the latest information when something changes,
+stays within its boundaries when its permissions narrow, remains consistent where
+the relevant conditions have not changed, and avoids claiming success when the
+work has not actually passed.
+
+Because **the code can be right while the agent's behavior is wrong.**
+
+An agent can complete the task correctly and still act outside the boundaries you
+gave it. It can keep using stale information after the situation changes. It can
+treat a success signal as proof even when the work itself has not passed.
+
+Blue Jackal makes those failures visible. Fix the workflow, run the same challenge
+again, and see whether the repair holds.
+
+Built for developers and teams turning coding agents from experiments into
+repeatable engineering workflows.
+
+**Pressure-test the workflow before you trust it with consequential code, automate
+it, or put it into production.**
+
+> **Change where change is warranted. Preserve what should still hold.**
 
 [See how Blue Jackal works](docs/HOW_BLUE_JACKAL_WORKS.md).
+
+Part of the [Second Mind Systems](https://github.com/Secondmindsystems/second-mind-systems)
+public engineering work · [Engineering portfolio](https://github.com/Secondmindsystems/governed-ai-systems-portfolio)
 
 ## Privacy and local use
 
