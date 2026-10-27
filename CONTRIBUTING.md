@@ -4,6 +4,10 @@ Start with the offline demo in README.md. Run `python -B -m unittest discover -s
 from this directory before proposing changes. Include the command, Python version,
 operating system, expected result and actual result in bug reports.
 
+Send feedback and bug reports through the repository's GitHub issues:
+https://github.com/Secondmindsystems/blue-jackal/issues. Do not include secrets or
+exploitable details in public issues; follow SECURITY.md for sensitive reports.
+
 Contributions are provided under Apache-2.0, the same license as this project
 (inbound equals outbound). Submit only material you have authority to share.
 Do not attach credentials, private code, raw prompts, session transcripts or

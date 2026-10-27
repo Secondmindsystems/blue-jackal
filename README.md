@@ -61,6 +61,7 @@ No hosted service is required for the offline workflow.
 
 See [limitations and platform evidence](docs/LIMITATIONS.md),
 [contributing](CONTRIBUTING.md), and [security reporting](SECURITY.md).
+Send feedback and bug reports through [GitHub issues](https://github.com/Secondmindsystems/blue-jackal/issues).
 
 Blue Jackal runs a small work contract, checks the result independently, and tests
 four ways an agent workflow can fail. A report keeps the work result, observed
